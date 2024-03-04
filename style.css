@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.sve {
+  margin-left: 250px;
+  padding-top: 16px;
+  margin-right: 300px;
+}
+
+.prvi {
+  background-color: #1f2937;
+  gap: 100px;
+  color: #f9faf8;
+  height: 450px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 26px;
+  color: #f9faf8;
+  font-weight: 900;
+  margin-bottom: 80px;
+}
+
+ul {
+  font-size: 16px;
+  display: flex;
+  margin-right: 20px;
+  gap: 8px;
+  list-style: none;
+}
+
+a {
+  color: #a5a7ab;
+  text-decoration: none;
+}
+
+.tekst {
+  display: flex;
+  flex-direction: column;
+  width: 425px;
+  flex-wrap: wrap;
+}
+
+.veci-tekst {
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.manji-tekst {
+  font-size: 18px;
+  color: #a5a7ab;
+  margin-bottom: 20px;
+}
+
+.button {
+  font-size: 16px;
+  font-weight: 900;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: none;
+  width: 125px;
+  height: 30px;
+  border-radius: 5px;
+  padding: 8px;
+  margin-top: 15px;
+}
+
+.pocetak {
+  display: flex;
+  flex-direction: space-between;
+  flex-wrap: wrap;
+}
+
+.slika {
+  position: absolute;
+  right: 0;
+  width: 480px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 300px;
+}
+
+.drugi {
+  margin-top: 100px;
+  margin-bottom: 170px;
+}
+
+.naslov {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 30px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.info img {
+  box-shadow: 0 3px 5px rgb(117, 117, 117);
+}
+
+.info img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.info {
+  font-size: 20px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.treci {
+  position: relative;
+  background-color: #e5e7eb;
+}
+
+.citat {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  margin-left: 400px;
+  margin-right: 400px;
+  font-size: 35px;
+}
+
+.pisac {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 550px;
+  margin-bottom: 70px;
+  font-size: 27px;
+  font-weight: 900;
+}
+
+.cetvrti {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.model {
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #3882f6;
+  width: 1000px;
+  border-radius: 10px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.text {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding-right: 300px;
+}
+
+.naslov2 {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.opis {
+  font-size: 15px;
+  color: #a5a7ab;
+  font-weight: 0;
+}
+
+.button2 {
+  background-color: #3882f6;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 100px;
+}
+
+.footer {
+  color: white;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  padding-bottom: 5px;
+  padding-top: 3px;
+}
